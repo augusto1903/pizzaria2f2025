@@ -6,9 +6,9 @@ function App() {
 
   // var nome = "Neymar Jr";
 
+const Formulario = () => {
   return (
     <div>
-      <h3>Pizzaria 2F</h3>
       <input
       className="nome"
       name = "nome"
@@ -20,6 +20,14 @@ function App() {
       onClick={()=>{alert(nome)}}>
         CLIQUE AQUI
       </button>
+    </div>
+  )
+}
+
+  return (
+    <div>
+      <h3>Pizzaria 2F</h3>
+      <Formulario/>
     </div>
   )
 }
